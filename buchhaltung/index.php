@@ -21,8 +21,6 @@
 
         .marginLeft { margin-left: auto; }
 
-        .grow1 { flex-grow: 1; }
-
         table {
             text-overflow: ellipsis;
             white-space: nowrap;
@@ -61,7 +59,7 @@
 
 
     <div class="logo">
-        <img src="../../web_image/logo.png" style="max-width: 8em">
+        <img alt="Logo of AclyInvent" src="../web_image/logo.png" style="max-width: 8em">
     </div>
 </div>
 
@@ -76,7 +74,7 @@
             <div class="marginLeft">
                 <button style="border-radius: 1em" onclick="nav(1)">
                     <div style="text-align: center; display: flex">
-                        <img src="../web_image/post_add_FILL0_wght100_GRAD-25_opsz48.svg" style="width: 24px">
+                        <img alt="Neue Rechnung hinzufügen" src="../web_image/post_add_FILL0_wght100_GRAD-25_opsz48.svg" style="width: 24px">
                         <span style="align-self: center; margin-left: 1em">Hinzufügen</span>
                     </div>
                 </button>
@@ -94,6 +92,8 @@
                     <th>Rechnungsnummer</th>
                     <th>Rechnungsdatum</th>
                     <th>Status</th>
+                    <th></th>
+                    <th></th>
                     <th></th>
                 </tr>
                 <?php
