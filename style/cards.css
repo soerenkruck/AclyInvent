@@ -1,0 +1,132 @@
+.card {
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 1em;
+    background: white;
+
+    overflow: hidden;
+    user-select: none;
+
+    box-shadow: 2px 2px 8px #888888;
+}
+
+.card .content {
+    margin: 2em;
+}
+
+.navigation-card {
+
+    background: white;
+    /*
+    background: transparent;
+    backdrop-filter: blur(16px);
+
+     */
+    box-shadow: 4px 4px 8px #888888;
+    transition-duration: 250ms;
+    padding: 2em;
+    border: 1px solid grey;
+    border-radius: var(--standard-radius);
+    box-sizing: border-box;
+    height: 16em;
+    width: 16em;
+
+    flex: 0;
+
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+
+    aspect-ratio: 1;
+}
+.navigation-card:hover {
+     box-shadow: 4px 4px 16px dimgrey;
+ }
+.navigation-card .nc-content {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr 0.2fr;
+    grid-template-areas:
+    "top"
+    "bottom";
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+.navigation-card .nc-content .top {
+    grid-area: top;
+}
+.navigation-card .nc-content .top img {
+    width: 128px;
+}
+.navigation-card .nc-content .bottom {
+    grid-area: bottom;
+}
+
+
+.content {
+    max-width: 60%;
+}
+.card-content {
+    width: 100%;
+    margin-top: 0em;
+    display: inline-flex;
+}
+
+.left {
+    width: auto;
+    margin: auto auto auto 0em;
+}
+.right {
+    width: content-box;
+}
+
+.card-shadow {
+    box-shadow: grey 2px 2px 8px;
+}
+
+.shadow {
+    box-shadow: gray 0px 0px 16px;
+}
+
+.big-divider {
+
+}
+.card-title {
+    font-size: 24px;
+    color: black;
+}
+
+.vertical-center {
+    display: inline-block;
+    vertical-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.chip {
+    border-radius: 1.1em;
+    border: 1px solid dimgrey;
+    padding: .1em .5em;
+}
+.light-border {
+    border-radius: var(--standard-radius);
+    border-color: grey;
+    border-width: 1px;
+    border-style: solid;
+    padding: 2rem;
+}
+
+/* Desktop */
+@media screen and (min-width: 901px) {
+}
+
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+    .content {
+        max-width: 100%;
+    }
+}
+

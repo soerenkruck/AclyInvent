@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gloria+Hallelujah&display=swap');
+
+@font-face {
+    font-face-name: Amatic;
+    font-family: "Amatic SC", cursive;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 64px;
+}
+h2 {
+    font-weight: 800;
+    font-size: 32px;
+}
+h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+h4 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.h1 {
+    font-weight: 900;
+    font-size: 64px;
+}
+.h2 {
+    font-weight: 800;
+    font-size: 32px;
+}
+.h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
+.h4 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+}
+
+span {
+    font-size: 16px;
+}
+
+.f24 {
+    font-size: 24px;
+}
+.small {
+    color: rgb(234, 234, 234);
+    font-size: 14px;
+}
+.small2 {
+    color: grey;
+    font-size: 10px;
+}
+.small16 {
+    color: grey;
+    font-size: 16px;
+}
+
+.danger {
+    color: crimson;
+}
+.warning {
+    color: #FFA726;
+}
+.ok {
+    color: limegreen;
+}
+
+.text-shadow-small {
+    text-shadow: black 0px 0px 4px;
+}
+
+a {
+    text-decoration: none;
+    color: #FFA726;
+    transition-duration: 100ms;
+}
+a:hover {
+    color: #FFB74D;
+    text-shadow: #FFB74D 0px 0px 1px ;
+}
+.simple-link {
+    color: white;
+}
+.simple-link:visited {
+    color: white;
+}
+.simple-link:hover {
+color: white;
+}
+
+
+/* Desktop */
+@media screen and (min-width: 901px) {
+}
+
+
+/* Mobile */
+@media screen and (max-width: 900px) {
+    .h1 {
+        font-weight: 900;
+        font-size: 56px;
+    }
+    .h2 {
+        font-weight: 800;
+        font-size: 28px;
+    }
+    .h3 {
+        font-weight: 600;
+        font-size: 22px;
+    }
+    .h4 {
+        font-weight: 500;
+        font-size: 16px;
+    }
+}
