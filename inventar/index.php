@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 
+    <link rel="stylesheet" href="https://use.typekit.net/qqr0irn.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/sizes.css">
 

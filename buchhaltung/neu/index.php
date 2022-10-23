@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 
+    <link rel="stylesheet" href="https://use.typekit.net/qqr0irn.css">
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/sizes.css">
     <link rel="stylesheet" href="../../style/texts.css">
@@ -65,7 +66,7 @@
 
 
     <div class="logo">
-        <img src="../../web_image/logo.png" style="max-width: 8em">
+        <img src="../../web_images/logo.png" style="max-width: 8em">
     </div>
 </div>
 

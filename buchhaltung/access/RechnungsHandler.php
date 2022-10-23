@@ -60,14 +60,14 @@ function loadBills()
 
 function getSentImage($s) {
     if ($s) {
-        return "<img style='width: 36px' src='../../web_image/mark_email_read_FILL0_wght100_GRAD-25_opsz48.svg'>";
+        return "<img style='width: 36px' src='../../web_images/mark_email_read_FILL0_wght100_GRAD-25_opsz48.svg'>";
     } else {
-        return "<img style='width: 36px' src='../../web_image/sms_failed_FILL0_wght100_GRAD-25_opsz48.svg'>";
+        return "<img style='width: 36px' src='../../web_images/sms_failed_FILL0_wght100_GRAD-25_opsz48.svg'>";
     }
 }
 function getCloudImage($p) {
     if (strlen($p) > 0) {
-        return "<img style='width: 36px' src='../../web_image/cloud_done_FILL0_wght100_GRAD-25_opsz48.svg'>";
+        return "<img style='width: 36px' src='../../web_images/cloud_done_FILL0_wght100_GRAD-25_opsz48.svg'>";
     } else {
         return "<img style='width: 36px'";
     }

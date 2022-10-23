@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 
+    <link rel="stylesheet" href="https://use.typekit.net/qqr0irn.css">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/sizes.css">
 
@@ -41,7 +42,7 @@
         <span class="h4">Rechnung</span>
     </div>
     <div class="logo">
-        <img src="../../web_image/logo.png" style="max-width: 8em">
+        <img alt="logo" src="web_images/logo.png" style="max-width: 8em">
     </div>
 </div>
 
@@ -54,7 +55,7 @@
                 <div class="navigation-card" onclick="nav(1)">
                     <div class="nc-content">
                         <div class="top">
-                            <img class="center" src="web_image/inventory_FILL0_wght100_GRAD-25_opsz48.svg"><br>
+                            <img alt="Inventar" class="center" src="web_images/inventory_FILL0_wght100_GRAD-25_opsz48.svg"><br>
                         </div>
                         <div class="bottom">
                             <span class="h4">Inventar</span>
@@ -64,7 +65,7 @@
                 <div class="navigation-card" onclick="nav(2)">
                     <div class="nc-content">
                         <div class="top">
-                            <img class="center" src="web_image/library_books_FILL0_wght100_GRAD-25_opsz48.svg"><br>
+                            <img alt="Buchhaltung" class="center" src="web_images/library_books_FILL0_wght100_GRAD-25_opsz48.svg"><br>
                         </div>
                         <div class="bottom">
                             <span class="h4">Buchhaltung</span>

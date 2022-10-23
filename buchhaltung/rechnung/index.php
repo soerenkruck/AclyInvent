@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 
+    <link rel="stylesheet" href="https://use.typekit.net/qqr0irn.css">
     <link rel="stylesheet" href="../../style/style.css">
     <link rel="stylesheet" href="../../style/sizes.css">
     <link rel="stylesheet" href="../../style/texts.css">
@@ -77,7 +78,7 @@
         <span class="h4">Rechnung</span>
     </div>
     <div class="logo">
-        <img src="../../web_image/logo.png" style="max-width: 8em">
+        <img src="../../web_images/logo.png" style="max-width: 8em">
     </div>
 </div>
 
@@ -104,10 +105,10 @@
                 <div id="sendStatusView">
                     <?php
                     switch ($rechnung->sendStatus) {
-                        case 1: echo "<img src='../../web_image/mark_email_read_FILL0_wght100_GRAD-25_opsz48.svg'/><br>
+                        case 1: echo "<img src='../../web_images/mark_email_read_FILL0_wght100_GRAD-25_opsz48.svg'/><br>
                             <span>zugestellt</span>";
                             break;
-                        case 0: echo "<img src='../../web_image/sms_failed_FILL0_wght100_GRAD-25_opsz48.svg'/><br>
+                        case 0: echo "<img src='../../web_images/sms_failed_FILL0_wght100_GRAD-25_opsz48.svg'/><br>
                             <span>nicht zugestellt</span>";
                             break;
                     }
@@ -242,9 +243,9 @@
         document.getElementById("sendstatusinput").value = sendStatus;
 
         if (sendStatus == 1) {
-            document.getElementById("sendStatusView").innerHTML = "<img src='../../web_image/mark_email_read_FILL0_wght100_GRAD-25_opsz48.svg'/><br><span>zugestellt</span><br>";
+            document.getElementById("sendStatusView").innerHTML = "<img src='../../web_images/mark_email_read_FILL0_wght100_GRAD-25_opsz48.svg'/><br><span>zugestellt</span><br>";
         } else {
-            document.getElementById("sendStatusView").innerHTML = "<img src='../../web_image/sms_failed_FILL0_wght100_GRAD-25_opsz48.svg'/><br><span>nicht zugestellt</span>";
+            document.getElementById("sendStatusView").innerHTML = "<img src='../../web_images/sms_failed_FILL0_wght100_GRAD-25_opsz48.svg'/><br><span>nicht zugestellt</span>";
         }
     }
 </script>

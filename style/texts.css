@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Gloria+Hallelujah&display=swap');
 
-@font-face {
-    font-face-name: Amatic;
-    font-family: "Amatic SC", cursive;
+@import url("https://use.typekit.net/cjy5hqg.css");
+
+/*
+300,400,500
+700,800,900
+*/
+
+body {
+    font-family: "Divenire";
 }
 
 h1 {
@@ -14,7 +20,7 @@ h2 {
     font-size: 32px;
 }
 h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 28px;
 }
 h4 {
@@ -31,7 +37,7 @@ h4 {
     font-size: 32px;
 }
 .h3 {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 28px;
 }
 .h4 {
@@ -62,6 +68,15 @@ span {
 .small16 {
     color: grey;
     font-size: 16px;
+}
+button {
+    font-family: Divenire;
+}
+table {
+    font-family: Divenire;
+}
+input {
+    font-family: Divenire;
 }
 
 .danger {

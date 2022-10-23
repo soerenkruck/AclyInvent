@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
 
+    <link rel="stylesheet" href="https://use.typekit.net/qqr0irn.css">
     <link rel="stylesheet" href="../style/style.css">
     <link rel="stylesheet" href="../style/sizes.css">
     <link rel="stylesheet" href="../style/texts.css">
@@ -59,7 +60,7 @@
 
 
     <div class="logo">
-        <img alt="Logo of AclyInvent" src="../web_image/logo.png" style="max-width: 8em">
+        <img alt="Logo of AclyInvent" src="../web_images/logo.png" style="max-width: 8em">
     </div>
 </div>
 
@@ -74,7 +75,7 @@
             <div class="marginLeft">
                 <button style="border-radius: 1em" onclick="nav(1)">
                     <div style="text-align: center; display: flex">
-                        <img alt="Neue Rechnung hinzufügen" src="../web_image/post_add_FILL0_wght100_GRAD-25_opsz48.svg" style="width: 24px">
+                        <img alt="Neue Rechnung hinzufügen" src="../web_images/post_add_FILL0_wght100_GRAD-25_opsz48.svg" style="width: 24px">
                         <span style="align-self: center; margin-left: 1em">Hinzufügen</span>
                     </div>
                 </button>
@@ -84,9 +85,7 @@
         <div class="space-small"></div>
 
         <div class="">
-            <table style="font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%; text-align: left">
+            <table style="border-collapse: collapse; width: 100%; text-align: left">
                 <tr>
                     <th>Adresse</th>
                     <th>Rechnungsnummer</th>
