@@ -13,6 +13,9 @@
 .rm-4 {
     margin-right: 4em;
 }
+.rm-2 {
+    margin-right: 2em;
+}
 .mb {
     margin-bottom: 1em;
 }
@@ -51,14 +54,21 @@
 .center {
     margin-left: auto;
     margin-right: auto;
-    width: min-content;
-    text-align: center;
 }
 .full-width {
     width: 100%;
 }
 .min-width {
     width: min-content;
+}
+
+.translate-y-8-up {
+    position: absolute;
+    transform: translateY(-8px);
+}
+.translate-y-8-down {
+    position: absolute;
+    transform: translateY(8px);
 }
 
 /* Desktop */

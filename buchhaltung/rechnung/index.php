@@ -89,11 +89,11 @@
 
         <div class="title-holder lm">
             <button class="image-button rm lm" onclick="back()"><img src="../../web_images/arrow_back_FILL0_wght100_GRAD-25_opsz48.svg"></button>
-            <div class="">
-                <p>
+            <div>
+                <p class="translate-y-8-up">
                     <span class="h3">Rechnung</span>
                     <br>
-                    <span class="small16"><?php echo $rechnung->rechnungsnummer?></span>
+                    <span class="small16 translate-y-8-up"><?php echo $rechnung->rechnungsnummer?></span>
                 </p>
             </div>
         </div>
@@ -168,26 +168,37 @@
 
                         </div>
 
-
-
                         <input id="paystatusinput" name="paystatus" type="hidden" value="<?php echo $rechnung->status?>">
                         <input id="sendstatusinput" name="sendstatus" type="hidden" value="<?php echo $rechnung->sendStatus?>">
 
                         <div class="space-small col1Last1"></div>
                         <input style="width: max-content;"type="submit" value="Speichern">
-
                     </form>
 
-                    <form class="light-border" style="width: 50%; margin-top: 2em; padding-right: 4rem" method="post" action="../../data/upload.php" enctype="multipart/form-data">
-                        <div style="margin-bottom: 1rem"><span class="h4">Rechnungsdatei</span></div>
-                        <!-- TODO: Rechnungsdatei anzeigen -->
+                    <div class="space-small"></div>
+                    <div class="title-holder mb">
+                        <img src="../../web_images/file_copy_FILL0_wght100_GRAD-25_opsz48.svg">
+                        <div>
+                            <span class="h4">Rechnungskopie</span>
+                        </div>
+                    </div>
+                    <?php
+                    if (strlen($rechnung->filePath) > 0) {
+                        echo '<iframe src="../../data/'. $rechnung->filePath .'" style="width: 58.5%; height: 555px"></iframe>';
+                    }
+                    ?>
 
-                        <?php
-                            if (strlen($rechnung->filePath) > 0) {
-                                echo '<iframe src="../../data/'. $rechnung->filePath .'" style="width: 105%; height: 555px"></iframe>';
-                            }
-                        ?>
+                    <div class="space-small"></div>
+                    <form class="half-width" style="padding-right: 4rem" method="post" action="../../data/upload.php" enctype="multipart/form-data">
+                        <div class="title-holder">
+                            <img src="../../web_images/file_upload_FILL0_wght100_GRAD-25_opsz48.svg">
+                            <div>
+                                <span class="h4">Neue Datei hochladen</span>
+                            </div>
+                        </div>
+                        <span class="small2 translate-y-8-up">Wenn eine neue Datei hochgeladen wird, wird die vorhandene Kopie ersetzt.</span>
 
+                        <div class="space-small"></div>
 
                         <input style="margin-top: 8px" type="file" name="rechnungsdatei">
                         <input type="hidden" name="id" value="<?php echo $rechnungsID?>">

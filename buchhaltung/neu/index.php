@@ -70,29 +70,55 @@
     </div>
 </div>
 
-<div class="space-large"></div>
+<div class="space-medium"></div>
 
 <div class="main t-8 rm-4 lm-4">
     <div class="slim-fit">
 
-        <form action="../access/RechnungsErsteller.php" method="post" class="half-width">
-            <section class="layout">
-                <div><span>Name (Firma)</span></div>
-                <div class="col1Last1 mb"><input class="" name="name" type="text"></div>
+        <form action="../access/RechnungsErsteller.php" method="post" class="half-width center">
+            <section class="center">
 
-                <div><span>Adresse</span></div>
-                <div class="col1Last1"><textarea class="" name="adress" type="text"></textarea></div>
+                <div class="title-holder hm-1">
+                    <img src="../../web_images/contact_mail_FILL0_wght100_GRAD-25_opsz48.svg">
+                    <div>
+                        <span class="h4" style="margin-left: 0.5em">Adressinformationen</span>
+                    </div>
+                </div>
+                <div class="light-border">
+                    <div><span>Name (Firma)</span></div>
+                    <div class="col1Last1 mb rm-2" style="margin-top: 8px"><input class="" name="name" type="text"></div>
 
-                <div class="space-small col1Last1"></div>
-                <div><span>Rechnungsdatum</span></div>
-                <div class="col1Last1"><input class="" style="width: auto" name="date" type="date"></div>
+                    <div><span>Adresse</span></div>
+                    <div class="col1Last1 rm-2" style="margin-top: 8px"><textarea class="" name="adress" type="text"></textarea></div>
 
-                <div class="space-small col1Last1"></div>
-                <div><span>Rechnungssumme in €</span></div>
-                <div class="col1Last1"><input class="" name="sum" type="number"></div>
+                    <div class="space-small"></div>
+                    <input type="radio" id="a" name="type" value="A" class="min-width">
+                    <label for="a">Geschäftskunde</label><br>
+                    <input type="radio" id="b" name="type" value="B" class="min-width">
+                    <label for="b">Privatkunde</label>
+                </div>
 
-                <div class="space-small col1Last1"></div>
-                <input style="width: max-content;"type="submit" value="Generieren">
+                <div class="space-small"></div>
+
+                <div class="title-holder hm-1">
+                    <img src="../../web_images/receipt_long_FILL0_wght100_GRAD-25_opsz48.svg">
+                    <div>
+                        <span class="h4" style="margin-left: 0.5em">Rechnungsdetails</span>
+                    </div>
+                </div>
+                <div class="light-border">
+                    <div><span>Rechnungsdatum</span></div>
+                    <div class="mb"><input class="" style="width: auto" name="date" type="date"></div>
+
+                    <div><span>Rechnungssumme in €</span></div>
+                    <div class="col1Last1"><input class="" name="sum" type="number"></div>
+                </div>
+
+                <div class="space-small"></div>
+                <div style="width: 100%">
+                    <input style="width: 8rem; z-index: 5; justify-content: center; float: right" type="submit" value="Generieren">
+                </div>
+                <div class="space-large"></div>
             </section>
         </form>
 
@@ -101,7 +127,7 @@
 
 <div class="space-medium"></div>
 
-<footer class="full-width">
+<footer class="full-width" style="z-index: 0">
     <div class="footer">
         <div class="links">
             <a href="../../">Startseite</a>

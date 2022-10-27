@@ -1,0 +1,28 @@
+html {
+    --Grafikdesign-blue: #0554F2;
+    --Grafikdesign-dark-blue: #044BD9;
+    --Grafikdesign-light-blue: #5288F2;
+    --Grafikdesign-light-grey: #D9D9D9;
+    --Grafikdesign-dark-grey: #404040;
+}
+
+/* Color Theme Swatches in Hex */
+.Grafikdesign-blue { color: #0554F2; }
+.Grafikdesign-dark-blue { color: #044BD9; }
+.Grafikdesign-light-blue { color: #5288F2; }
+.Grafikdesign-white { color: #D9D9D9; }
+.Grafikdesign-dark-grey { color: #404040; }
+
+/* Color Theme Swatches in RGBA */
+.Grafikdesign-1-rgba { color: rgba(5, 84, 242, 1); }
+.Grafikdesign-2-rgba { color: rgba(4, 75, 217, 1); }
+.Grafikdesign-3-rgba { color: rgba(82, 136, 242, 1); }
+.Grafikdesign-4-rgba { color: rgba(217, 217, 217, 1); }
+.Grafikdesign-5-rgba { color: rgba(64, 64, 64, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Grafikdesign-1-hsla { color: hsla(219, 95, 48, 1); }
+.Grafikdesign-2-hsla { color: hsla(219, 96, 43, 1); }
+.Grafikdesign-3-hsla { color: hsla(219, 86, 63, 1); }
+.Grafikdesign-4-hsla { color: hsla(0, 0, 85, 1); }
+.Grafikdesign-5-hsla { color: hsla(0, 0, 25, 1); }

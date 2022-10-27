@@ -24,7 +24,7 @@ h3 {
     font-size: 28px;
 }
 h4 {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 24px;
 }
 
@@ -41,8 +41,12 @@ h4 {
     font-size: 28px;
 }
 .h4 {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 24px;
+}
+.light {
+    font-weight: 300;
+    font-size: 16px;
 }
 
 p {

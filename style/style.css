@@ -1,10 +1,10 @@
+@import "colors.css";
+
 html {
     margin: 0;
     padding: 0;
     height: 100%;
     width: 100%;
-
-    --accent-color: #f3774c;
 
     --standard-radius: .33rem;
 
@@ -82,8 +82,8 @@ body {
 
     border-bottom: 1px solid rgba(218, 218, 218, 0.58);
 
-    background-color: var(--color-dark);
-    color: white;
+    background-color: var(--Grafikdesign-dark-grey);
+    color: whitesmoke;
 
     position: fixed;
 
@@ -96,7 +96,7 @@ body {
 
     user-select: none;
 
-    box-shadow: var(--color-dark) 0 0 8px;
+    box-shadow: var(--Grafikdesign-dark-grey) 0 0 8px;
 }
 
 .header-bar .header-title {
@@ -128,6 +128,10 @@ body {
 
 .header-bar #nav {
     vertical-align: center;
+}
+.header-bar .h4 {
+    position: absolute;
+    transform: translateY(-8px);
 }
 
 .top-holder {
@@ -167,8 +171,8 @@ body {
 }
 .image-button:hover {
     /*background: #ececec;*/
-    box-shadow: 0 0 4px var(--accent-color);
-    border-color: var(--accent-color);
+    box-shadow: 0 0 4px var(--Grafikdesign-light-blue);
+    border-color: var(--Grafikdesign-light-blue);
 }
 
 footer {
@@ -243,7 +247,7 @@ iframe {
     max-height: 64px;
 }
 
-button {
+button, input[type="submit"] {
     padding: .5em 1em;
     background: white;
     border: grey 1px solid;
@@ -260,9 +264,9 @@ button {
     height: min-content;
     display: inline-flex;
 }
-button:hover {
-    border-color: var(--accent-color);
-    box-shadow: var(--accent-color) 0 0 4px;
+button:hover, input[type="submit"]:hover {
+    border-color: var(--Grafikdesign-light-blue);
+    box-shadow: var(--Grafikdesign-light-blue) 0 0 4px;
 }
 
 .overview-box {
@@ -334,29 +338,21 @@ button:hover {
     gap: 8px;
 }
 
-input {
-    padding: .5em 1em;
+input, textarea {
+    padding: .5em .1em;
     background: white;
-    border: grey 1px solid;
-    border-radius: 2em;
+    border: 1px none grey;
+    border-bottom-style: solid;
+    border-radius: 0;
 
     transition-duration: 100ms;
 }
-textarea {
-    padding: .5em 1em;
-    background: white;
-    border: grey 1px solid;
-    border-radius: 1.5em;
-
-    transition-duration: 100ms;
+input:focus, textarea:focus {
+    outline: none;
 }
-input:hover {
-    border-color: var(--accent-color);
-    box-shadow: var(--accent-color) 0 0 4px;
-}
-textarea:hover {
-    border-color: var(--accent-color);
-    box-shadow: var(--accent-color) 0 0 4px;
+input:hover, textarea:hover {
+    border-color: var(--Grafikdesign-light-blue);
+    /*box-shadow: var(--Grafikdesign-light-blue) 0 0 4px;*/
 }
 
 /* Desktop */
